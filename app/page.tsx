@@ -21,6 +21,11 @@ export default function Home() {
           <p className="mt-6 text-xl text-muted-foreground max-w-[600px] mx-auto">
             This is a customizable template. Replace all content with your own using the chat interface.
           </p>
+          <div className="mt-8 flex justify-center">
+            <a href="/todos" className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-6 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2">
+              Open Todo App
+            </a>
+          </div>
         </div>
       </section>
     </div>
